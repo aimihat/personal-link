@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for file in *.HEIC *.heic *.PNG *.png)",
+      "Bash(do [ -f \"$file\" ])",
+      "Bash(sips:*)",
+      "Bash(echo:*)",
+      "Bash(done)",
+      "Bash(for file in *.HEIC)",
+      "Bash(for:*)"
+    ]
+  }
+}
